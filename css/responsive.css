@@ -1,0 +1,61 @@
+@media screen and (max-width: 600px){
+    .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .main-text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    nav .nav-links li a{
+        display: none;
+    }
+     .main-text h1{
+        font-size: 90px;   
+        line-height: 85px;
+     }
+      .main-text p{
+        font-size: 13px;
+        line-height: 15px;
+        padding-top: 8px;
+    } 
+    .main-text button{
+        margin-top: 10px;
+        width: 120px;
+        height: 40px;
+        font-size: 15px;
+    }
+    .intro-text {
+        font-size: 1.3rem;
+    }
+
+}
+@media screen and (width: 768px){
+    .main-text h1{
+        font-size: 9px;   
+        line-height: 80px;
+     }
+
+     .main-text p{
+         font-size: 13px;
+         line-height: 15px;
+     }
+
+     nav .nav-links li a{
+         display: none;
+     }
+
+     .logo{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         margin: 0 auto;
+     }
+     
+     .intro-text {
+        font-size: 1.5rem;
+    }
+}
